@@ -1,0 +1,10 @@
+La plataforma podría ofrecer un menú online. Para ello habría que agregar una tabla nueva a la base de datos, con el detalle de cada uno de los platos
+que ofrece el restaurant, junto con su precio unitario.
+Este servicio podría ser ideal para aquellos usuarios que decidan pedir comida desde su casa.
+Su endpoint sería: (GET) api/menu
+
+Siguiendo la misma linea, se podría agregar una tabla más a la base de datos para tomar reservas online.
+Dicha tabla llevaría el nombre de Reservas, y en la misma se almacenarian los datos de los comensales que 
+reserven, junto con un numero de telefono de contacto; y la fecha/hora junto con la cantidad de acompañantes
+que decida llevar.
+Su endpoint: (POST) api/reservas
